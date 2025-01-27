@@ -1,0 +1,13 @@
+repos:
+  - repo: local
+    hooks:
+      - id: validate-yaml
+        name: Validate YAML Files
+        entry: python validate_yaml.py conditions.yaml
+        language: system
+        types: [yaml]
+        files: ^(yaml_files/.*\.yaml|yaml_files2/.*\.yaml)$
+        pass_filenames: false
+
+
+

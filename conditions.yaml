@@ -1,0 +1,39 @@
+mandatory:
+  - name
+  - phoneNo
+  - Married
+
+dependency:
+  employed:
+    condition: true
+    mandatory:
+      - employmentType
+
+  Married:
+    condition: true
+    mandatory:
+      - spouse
+
+type:
+  name: str
+  age: int
+  phoneNo: int
+  Married: bool
+  vehicles: list
+  address: dict
+  gender: str
+
+length:
+  phoneNo:
+    - 10
+  name:
+    - 3
+    - 20
+  age:
+    - 1
+    - 3
+
+allowed_values:
+  gender:
+    - male
+    - female

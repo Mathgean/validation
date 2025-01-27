@@ -1,0 +1,44 @@
+- name: raja
+  age: 34
+  gender: male
+  phoneNo: 9944757596
+  Married: false
+  employed: true
+  employmentType: salaried
+  CompanyName: Athena
+  vehicles:
+    - the
+  address:
+    houseNo: 15
+    street: Mariyamman
+    city: Tindivanam
+    pincode: 604101
+
+- name: prem
+  age: 233
+  gender: female
+  phoneNo: 9944757596
+  Married: true
+  spouse: harshita
+  employed: true
+  employmentType: salaried
+  CompanyName: Athena
+
+- name: bolkn
+  age: 23
+  gender: female
+  phoneNo: 9944757596
+  Married: false
+  spouse:
+  employed: true
+  employmentType: intern
+  CompanyName: NA
+
+- name: bushanawi
+  age: 23
+  gender: male
+  phoneNo: 9944757594
+  Married: false
+  employed: true
+  employmentType: freelancer
+  CompanyName: NA
